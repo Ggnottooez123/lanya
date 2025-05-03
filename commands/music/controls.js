@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('controls')
+    .setName('')
     .setDescription('Basic playback controls')
     .addSubcommand((subcommand) =>
       subcommand.setName('join').setDescription('Join the VC')
